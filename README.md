@@ -1,4 +1,4 @@
-# HAVEN — Intelligent Room Designer
+# HAVEN - Intelligent Room Designer
 ### Metadome · 3-Day Solutions Engineer Assessment
 
 > **Submission format:** Web prototype for the **Home Decor** track.
@@ -20,23 +20,28 @@ This submission focuses on assignment outcomes (interaction, visuals, AI-assiste
 
 ### 1) Game Mechanics
 - Furniture placement, drag-to-move, rotate, duplicate, delete
+- Smart collision prevention + 60px walkway clearance checks
 - Snap-to-grid toggle for controlled placement
 - Undo/redo history for interaction recovery
 - Measure tool and right-click context actions
 - One-click room templates + reset to empty room
+- AI suggestion placement now searches for valid non-overlapping spots
 
 ### 2) Graphics
 - Custom rendered environment (walls, floor materials, depth effects, architectural details)
 - Procedural furniture visuals (no external model dependencies)
 - Real-time wall/floor updates and visual feedback
 - Clean panelized layout for controls + stage + AI output
+- Live Room Quality score (0-100) based on spacing, density, balance, and palette contrast
 
 ### 3) Generative AI Integration
 - Prompt input + style chips + preset buttons (Modern/Minimalist/Luxury)
 - Fallback-first behavior (works without API key)
 - Optional live Claude mode for dynamic suggestions
 - Exactly 5 normalized suggestion cards always rendered
-- One-click apply updates wall color, floor, and missing furniture placements
+- Rationale cards per option (`Why`, `Best For`, `Mood`)
+- Preview-first flow: AI suggestions open a room preview before commit (Accept/Cancel)
+- Applying accepted suggestions updates wall color, floor, and valid missing furniture placements
 
 ### 4) Documentation
 - This README contains setup, features, criteria mapping, and demo flow
@@ -52,7 +57,7 @@ This submission focuses on assignment outcomes (interaction, visuals, AI-assiste
 
 ---
 
-## Demo Screenshots 
+## Demo Screenshots / GIFs (8)
 
 ### 1. Full Prototype Overview
 ![Overview](assets/demo/01-overview.png)
@@ -79,6 +84,19 @@ This submission focuses on assignment outcomes (interaction, visuals, AI-assiste
 ![Helper Overlay](assets/demo/08-helper-overlay.png)
 
 ---
+
+## 2-Minute Demo Script (Step-by-Step)
+
+1. `0:00–0:15` Intro: "This is HAVEN, a web prototype for the Home Decor track."
+2. `0:15–0:35` Core interactions: place furniture, drag to move, rotate, duplicate, delete.
+3. `0:35–0:55` Smart mechanics: show collision blocking + 60px clearance feedback.
+4. `0:55–1:15` Visual controls: switch wall color, floor material, room size, then reset room.
+5. `1:15–1:35` AI generation: use a preset, generate 5 options, show rationale cards.
+6. `1:35–1:50` Preview flow: open one suggestion preview, compare quality score, Accept/Cancel.
+7. `1:50–2:00` Wrap-up: export PNG + share link + recap evaluation criteria coverage.
+
+---
+
 
 
 ## Known Constraint
