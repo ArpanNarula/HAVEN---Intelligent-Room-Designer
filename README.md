@@ -52,7 +52,7 @@ This submission focuses on assignment outcomes (interaction, visuals, AI-assiste
 
 ---
 
-## Demo Screenshots / GIFs (8)
+## Demo Screenshots 
 
 ### 1. Full Prototype Overview
 ![Overview](assets/demo/01-overview.png)
