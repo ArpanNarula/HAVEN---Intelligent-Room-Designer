@@ -80,38 +80,6 @@ This submission focuses on assignment outcomes (interaction, visuals, AI-assiste
 
 ---
 
-## 2-Minute Demo Script (Step-by-Step)
-
-1. **0:00–0:15** — Intro
-   - "This is HAVEN, a Home Decor room-design prototype for the Metadome evaluation."
-
-2. **0:15–0:35** — Core interactions
-   - Apply a room template.
-   - Place one furniture item.
-   - Drag and rotate it.
-
-3. **0:35–0:50** — Visual customization
-   - Change wall color.
-   - Change floor material.
-
-4. **0:50–1:10** — AI flow
-   - Use a preset (Modern/Minimalist/Luxury).
-   - Click **Generate AI Suggestions**.
-   - Mention fallback-first behavior and optional live Claude mode.
-
-5. **1:10–1:30** — Suggestion apply
-   - Open any option and click **Apply to Room**.
-   - Show room updates instantly.
-
-6. **1:30–1:45** — Utility features
-   - Demonstrate undo/redo.
-   - Show reset-to-empty-room.
-
-7. **1:45–2:00** — Export & close
-   - Export PNG.
-   - Mention share link and deliverables readiness.
-
----
 
 ## Known Constraint
 
